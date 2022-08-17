@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_store_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_marmits"
+            android:icon="@drawable/ic_baseline_restaurant_24"
+            android:title="@string/menu_marmit"/>
+
+    </group>
+
+
+    <item android:menuCategory="secondary"
+        tools:ignore="MenuTitle">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_shareApp"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="@string/menu_share" />
+
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="@string/menu_info" />
+
+            </group>
+
+        </menu>
+    </item>
+
+
+</menu>

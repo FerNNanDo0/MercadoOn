@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFFFFF</color>
+    <color name="purple_500">#F808198A</color>
+    <color name="purple_700">#0A1ECD</color>
+    <color name="teal_200">#130E4E</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="icon">#00F7FF</color>
+    <color name="icon_delete">#A8A7A7</color>
+
+    <color name="smartTab">#00E2FF</color>
+    <color name="hide">@android:color/transparent</color>
+    <color name="blackSmartDivider">#4D000000</color>
+    <color name="whiteSmart">#CAE4E6</color>
+
+    <color name="bluee">#00B0FF</color>
+    <color name="colorCar">#F2E0F8FF</color>
+    <color name="blue1">#008EFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#0ECE0B</color>
+</resources>

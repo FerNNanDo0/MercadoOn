@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorCar"
+    tools:context="com.mercado.mercado.activity.carrinho.CarShopActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerListCar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorCar"
+        app:layout_constraintBottom_toTopOf="@+id/texttT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textCarEmpty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:alpha="2"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:text="@string/txtCarEmpty"
+        android:textColor="@color/red"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerListCar"
+        app:layout_constraintEnd_toEndOf="@+id/recyclerListCar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/recyclerListCar"
+        app:layout_constraintTop_toTopOf="@+id/recyclerListCar"
+        app:layout_constraintVertical_bias="0.636"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnComprar"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="45dp"
+        android:alpha="2"
+        android:backgroundTint="@color/black"
+        android:clickable="true"
+        android:elevation="6dp"
+        android:focusable="true"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/btnComprar"
+        android:textColor="@color/bluee"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="@color/green"
+        app:strokeColor="@color/bluee" />
+
+    <TextView
+        android:id="@+id/textTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="32dp"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="@string/textTotal"
+        android:textColor="#D50000"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnComprar"
+        app:layout_constraintStart_toEndOf="@+id/texttT" />
+
+    <TextView
+        android:id="@+id/texttT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/totalValor"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnComprar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "9778497270",
+    "firebase_url": "https://mercado-virtual-d21c8-default-rtdb.firebaseio.com",
+    "project_id": "mercado-virtual-d21c8",
+    "storage_bucket": "mercado-virtual-d21c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9778497270:android:126810678e36b21cde8ed7",
+        "android_client_info": {
+          "package_name": "com.mercado.mercado.on"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9778497270-s1i0ft2kku9mpmp6ckib2gb1s2hkufrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGoW2jctSsqIZJnCyfm4xAzDQp7yr10nI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9778497270-s1i0ft2kku9mpmp6ckib2gb1s2hkufrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9778497270:android:03a24a1b175d633dde8ed7",
+        "android_client_info": {
+          "package_name": "com.mercado.online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9778497270-s1i0ft2kku9mpmp6ckib2gb1s2hkufrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGoW2jctSsqIZJnCyfm4xAzDQp7yr10nI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9778497270-s1i0ft2kku9mpmp6ckib2gb1s2hkufrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

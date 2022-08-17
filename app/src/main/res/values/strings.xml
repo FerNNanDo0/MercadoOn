@@ -1,0 +1,43 @@
+<resources>
+    <string name="produto_disponivel">Produto Disponível</string>
+    <string name="detalhes">detalhes</string>
+    <string name="adicionar_ao_carrinho">Adicionar</string>
+
+    <string name="btnComprar">Comprar</string>
+    <string name="txtCarEmpty">Seu carrinho está vazio!</string>
+
+    <string name="app_name">Mercado Online</string>
+    <string name="nav_header_title"> ....... </string>
+    <string name="nav_header_subtitle">android.user@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Mercado</string>
+    <string name="menu_share">Compartilhar App</string>
+    <string name="menu_info">Informações</string>
+    <string name="menu_marmit">Marmitas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="tabAlimentosP">Alimentos e perecíveis</string>
+    <string name="tabHigieneL">Higiene e limpeza</string>
+    <string name="tabBebidas"> Bebidas</string>
+    <string name="tabOutros"> Outros</string>
+    <string name="tabOfertas"> Ofertas</string>
+    <string name="tabBazar"> Bazar</string>
+
+    <string name="nav_open">Abrir</string>
+    <string name="nav_close">Fechar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="txtpreco">Preço R$ </string>
+    <string name="textSemProd">Não há produtos no momento !</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="totalValor">Total R$: </string>
+    <string name="textTotal">0,00</string>
+    <string name="pre_o_r">Preço R$ </string>
+    <string name="nome_do_produto">nome do produto</string>
+    <string name="_10_90">10,90</string>
+    <string name="R">R$:</string>
+    <string name="unidadesCar">Und:</string>
+</resources>

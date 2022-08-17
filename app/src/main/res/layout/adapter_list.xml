@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:elevation="6dp"
+    app:cardBackgroundColor="@color/white"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imag_post"
+            android:layout_width="wrap_content"
+            android:layout_height="210dp"
+            android:layout_marginTop="1dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerInside"
+            tools:ignore="ImageContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/textViewdetalhes"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center|top"
+                android:text="@string/detalhes"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewPreco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:text="@string/pre_o_r"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textPreco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center|top"
+                    android:text=""
+                    android:textColor="@color/blue1"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:layout_marginTop="3dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/buttonMenos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="1"
+                    android:elevation="2dp"
+                    android:src="@drawable/ic_menos_24"
+                    app:civ_border_color="@color/purple_700"
+                    app:civ_border_width="2dp"
+                    app:civ_circle_background_color="@color/white"
+                    tools:foregroundGravity="center" />
+
+                <TextView
+                    android:id="@+id/produt_unds"
+                    android:layout_width="11dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#D50000"
+                    android:textSize="19sp"
+                    tools:gravity="center" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/buttonMais"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="1"
+                    android:elevation="2dp"
+                    android:src="@drawable/ic_mais_24"
+                    app:civ_border_color="@color/purple_700"
+                    app:civ_border_width="2dp"
+                    app:civ_circle_background_color="@color/white"
+                    tools:foregroundGravity="center" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/buttonAddcarrinho"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:drawableEnd="@drawable/add_shopping_cart_24"
+                android:elevation="2dp"
+                android:text="@string/adicionar_ao_carrinho"
+                android:textColor="@color/purple_700"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:theme="@style/themeBtn"
+                app:rippleColor="@color/green"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
